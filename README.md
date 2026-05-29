@@ -246,4 +246,3 @@ El desarrollo del sistema permitió aplicar de manera práctica los conceptos vi
 * Trabajo colaborativo con GitHub.
 
 Además, el proyecto permitió comprender cómo una base de datos bien diseñada soporta procesos reales de negocio y facilita la toma de decisiones.
-✔️ Documentación en GitHub
