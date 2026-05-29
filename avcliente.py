@@ -24,7 +24,7 @@ def _init_oracle():
 
 def conectar():
     _init_oracle()
-    return oracledb.connect(user="mateo", password="Cenicient4!!", dsn="adbg07_low")
+    return oracledb.connect(user = os.getenv("DB_USER"), password = os.getenv("DB_PASSWORD"), dsn = os.getenv("DB_DSN"))
 
 
 def consultar(sql, params=None):
